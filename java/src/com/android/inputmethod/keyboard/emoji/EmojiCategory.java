@@ -196,8 +196,6 @@ final class EmojiCategory {
                     addShownCategoryId(EmojiCategory.ID_FLAGS);
                 }
             }
-        } else {
-            addShownCategoryId(EmojiCategory.ID_SYMBOLS);
         }
         addShownCategoryId(EmojiCategory.ID_EMOTICONS);
 

@@ -2,7 +2,7 @@
 <!--
 /*
 **
-** Copyright 2011, The Android Open Source Project
+** Copyright 2016, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -25,6 +25,15 @@
         latin:keyboardLayout="@xml/key_styles_common" />
     <include
         latin:keyboardLayout="@xml/key_styles_currency" />
+    <Row
+        latin:keyWidth="9.0%p"
+    >
+        <include
+	    latin:keyboardLayout="@xml/rowkeys_symbols0" />
+        <Key
+	    latin:keyStyle="tabKeyStyle"
+	    latin:keyWidth="fillRight" />
+    </Row>
     <Row
         latin:keyWidth="9.0%p"
     >
